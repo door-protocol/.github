@@ -101,11 +101,12 @@ cat README.md
 ```
 
 **Key Contract Addresses (Mantle Sepolia)**:
+
 - CoreVault: `0x1601Aa4aE97b999cEd4bbaCF0D4B52f29554846F`
 - SeniorVault: `0x34BC889a143870bBd8538EAe6421cA4c62e84bc3`
 - JuniorVault: `0x8E1A6A3Ba7c5cb4d416Da7Fd376b2BC75227022e`
 
-[See all addresses →](https://github.com/door-protocol/frontend?tab=readme-ov-file#-deployed-contracts-mantle-sepolia)
+[See all addresses →](https://github.com/door-protocol/contract/blob/main/README.md)
 
 #### Frontend Application
 
@@ -135,18 +136,19 @@ cat README.md
 
 ### Core Documentation
 
-Located in [`.github/docs/`](./docs/):
+Located in [`.github/docs/`](https://github.com/door-protocol/.github/tree/main/docs):
 
-| Document | Description | Audience |
-|----------|-------------|----------|
-| [**README.md**](./docs/README.md) | Product overview, features, and use cases | Everyone |
-| [**ARCHITECTURE.md**](./docs/ARCHITECTURE.md) | System design, contract interactions, technical specifications | Developers |
-| [**API_REFERENCE.md**](./docs/API_REFERENCE.md) | Contract interfaces, integration examples, event reference | Integrators |
-| [**DEPLOYMENT_GUIDE.md**](./docs/DEPLOYMENT_GUIDE.md) | Deployment instructions, network configs, troubleshooting | DevOps |
+| Document                                              | Description                                                    | Audience    |
+| ----------------------------------------------------- | -------------------------------------------------------------- | ----------- |
+| [**README.md**](https://github.com/door-protocol/.github/tree/main/docs/README.md)                     | Product overview, features, and use cases                      | Everyone    |
+| [**ARCHITECTURE.md**](https://github.com/door-protocol/.github/tree/main/docs/ARCHITECTURE.md)         | System design, contract interactions, technical specifications | Developers  |
+| [**API_REFERENCE.md**](https://github.com/door-protocol/.github/blob/main/docs/API_REFERENCE.md)       | Contract interfaces, integration examples, event reference     | Integrators |
+| [**DEPLOYMENT_GUIDE.md**](https://github.com/door-protocol/.github/tree/main/docs/DEPLOYMENT_GUIDE.md) | Deployment instructions, network configs, troubleshooting      | DevOps      |
 
 ### Component Documentation
 
 - **Smart Contracts**: [`/contract/README.md`](https://github.com/door-protocol/contract/blob/main/README.md)
+
   - Contract architecture
   - Testing guide
   - Development workflow
@@ -214,7 +216,7 @@ Total Yield (12% APY on $100k)
             (16% APY on $20k Junior Capital)
 ```
 
-[Learn more about architecture →](./docs/ARCHITECTURE.md)
+[Learn more about architecture →](https://github.com/door-protocol/.github/tree/main/docs/ARCHITECTURE.md)
 
 ---
 
@@ -241,6 +243,8 @@ Total Yield (12% APY on $100k)
 - Strategy risk: mETH staking carries smart contract and market risks
 - Testnet only - not production ready
 
+[See security details →](https://github.com/door-protocol/.github/tree/main/docs/ARCHITECTURE.md#security-considerations)
+
 ---
 
 ## 🧪 Testing
@@ -264,6 +268,7 @@ forge coverage
 ```
 
 **Test Results**:
+
 ```
 Test result: ok. 142 passed; 0 failed; 0 skipped; finished in 2.31s
 Ran 8 test suites: 142 tests passed, 0 failed, 0 skipped
@@ -290,14 +295,14 @@ npm run build
 
 ### Networks
 
-| Network | Status | Chain ID | RPC URL |
-|---------|--------|----------|---------|
-| **Mantle Sepolia** | ✅ Deployed | 5003 | https://rpc.sepolia.mantle.xyz |
-| **Mantle Mainnet** | ⏳ Planned | 5000 | https://rpc.mantle.xyz |
+| Network            | Status      | Chain ID | RPC URL                        |
+| ------------------ | ----------- | -------- | ------------------------------ |
+| **Mantle Sepolia** | ✅ Deployed | 5003     | https://rpc.sepolia.mantle.xyz |
+| **Mantle Mainnet** | ⏳ Planned  | 5000     | https://rpc.mantle.xyz         |
 
 ### Deployed Contracts (Testnet)
 
-See full deployment addresses in [DEPLOYMENT_GUIDE.md](./docs/DEPLOYMENT_GUIDE.md#deployment-output)
+See full deployment addresses in [DEPLOYMENT_GUIDE.md](https://github.com/door-protocol/.github/tree/main/docs/DEPLOYMENT_GUIDE.md)
 
 ### Web Application
 
@@ -389,12 +394,14 @@ See full deployment addresses in [DEPLOYMENT_GUIDE.md](./docs/DEPLOYMENT_GUIDE.m
 **Profile**: Risk-averse investors seeking stable returns
 
 **Features**:
+
 - Fixed APY (5-8%, based on DOR + 1%)
 - Priority claim on yields
 - Protected by Junior capital buffer
 - Suitable for: Long-term holders, institutions, DAOs
 
 **Example**:
+
 ```
 Deposit: 10,000 USDC
 APY: 8%
@@ -407,12 +414,14 @@ Risk: Low (Junior buffer protection)
 **Profile**: Risk-seeking investors pursuing high returns
 
 **Features**:
+
 - Leveraged APY (15-30%, depends on strategy yield)
 - Receives all excess yield
 - First-loss position
 - Suitable for: Active traders, yield farmers
 
 **Example**:
+
 ```
 Scenario: $100k total, $20k junior (20% ratio)
 Strategy Yield: 12% APY ($12k/year)
@@ -446,6 +455,7 @@ We welcome contributions! Here's how you can help:
 ### Documentation
 
 Found a typo or want to improve documentation?
+
 1. Edit the relevant `.md` file
 2. Submit a pull request
 
@@ -453,7 +463,7 @@ Found a typo or want to improve documentation?
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/door-protocol/frontend/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/door-protocol/contract/tree/main/LICENSE) file for details.
 
 ---
 
@@ -475,29 +485,30 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 ### For Newcomers
 
-1. Start with [Product Overview](./docs/README.md)
-2. Understand [Waterfall Distribution](./docs/ARCHITECTURE.md#waterfall-distribution-mechanism)
-3. Explore [Use Cases](./docs/README.md#use-cases)
+1. Start with [Product Overview](https://github.com/door-protocol/.github/tree/main/docs/README.md)
+2. Understand [Waterfall Distribution](https://github.com/door-protocol/.github/tree/main/docs/ARCHITECTURE.md#waterfall-distribution-mechanism)
+3. Explore [Use Cases](https://github.com/door-protocol/.github/tree/main/docs/README.md#use-cases)
 4. Try the [Web App](https://door-protocol-frontend.vercel.app)
 
 ### For Developers
 
-1. Read [Architecture Documentation](./docs/ARCHITECTURE.md)
-2. Study [API Reference](./docs/API_REFERENCE.md)
-3. Follow [Deployment Guide](./docs/DEPLOYMENT_GUIDE.md)
+1. Read [Architecture Documentation](https://github.com/door-protocol/.github/tree/main/docs/ARCHITECTURE.md)
+2. Study [API Reference](https://github.com/door-protocol/.github/tree/main/docs/API_REFERENCE.md)
+3. Follow [Deployment Guide](https://github.com/door-protocol/.github/tree/main/docs/DEPLOYMENT_GUIDE.md)
 4. Review [Contract Code](https://github.com/door-protocol/contract/tree/main/src)
 
 ### For Integrators
 
-1. Check [API Reference](./docs/API_REFERENCE.md)
-2. Review [Integration Examples](./docs/API_REFERENCE.md#integration-examples)
-3. Test on [Mantle Sepolia Testnet](./docs/DEPLOYMENT_GUIDE.md#testnet-deployment)
+1. Check [API Reference](https://github.com/door-protocol/.github/tree/main/doc/API_REFERENCE.md)
+2. Review [Integration Examples](https://github.com/door-protocol/.github/tree/main/doc/API_REFERENCE.md#integration-examples)
+3. Test on [Mantle Sepolia Testnet](https://github.com/door-protocol/.github/tree/main/doc/DEPLOYMENT_GUIDE.md#testnet-deployment)
 
 ---
 
 ## 🌟 Acknowledgments
 
 Built with:
+
 - **Mantle Network**: L2 infrastructure and mETH integration
 - **OpenZeppelin**: Secure smart contract libraries
 - **Foundry**: Development and testing framework
@@ -507,7 +518,5 @@ Built with:
 Special thanks to the Mantle Network team for their support and the amazing L2 infrastructure.
 
 ---
-
-**Built on Mantle Network** | **Powered by OpenZeppelin** | **Developed with Foundry**
 
 For the latest updates, follow us on [X (Twitter)](https://x.com/door_protocol) or visit our [GitHub](https://github.com/door-protocol).
