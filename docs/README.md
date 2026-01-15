@@ -293,7 +293,7 @@ Critical operations require multi-signature approval:
 
 - **Website**: [https://door-protocol-frontend.vercel.app](https://door-protocol-frontend.vercel.app)
 - **Frontend Repository**: [GitHub - Frontend](https://github.com/door-protocol/frontend)
-- **Contract Repository**: [GitHub - Contracts](https://github.com/door-protocol/contracts)
+- **Contract Repository**: [GitHub - Contracts](https://github.com/door-protocol/contract)
 - **X (Twitter)**: [@door_protocol](https://x.com/door_protocol)
 
 ### Contact
@@ -303,7 +303,7 @@ Critical operations require multi-signature approval:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](../../contract/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/door-protocol/contract/blob/main/LICENSE) file for details.
 
 ## Disclaimer
 

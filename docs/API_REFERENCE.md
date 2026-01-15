@@ -364,8 +364,8 @@ const [id, startTime, endTime, finalized] =
   await epochManager.read.getCurrentEpoch();
 console.log(
   `Epoch ${id}: ${new Date(Number(startTime) * 1000)} - ${new Date(
-    Number(endTime) * 1000
-  )}`
+    Number(endTime) * 1000,
+  )}`,
 );
 ```
 
@@ -582,8 +582,8 @@ const walletClient = createWalletClient({
 });
 
 // Contract addresses
-const SENIOR_VAULT = '0x34BC889a143870bBd8538EAe6421cA4c62e84bc3';
-const USDC = '0x9a54bad93a00bf1232d4e636f5e53055dc0b8238';
+const SENIOR_VAULT = '0x766624E3E59a80Da9801e9b71994cb927eB7F260';
+const MOCK_USDC = '0xbadbbDb50f5F0455Bf6E4Dd6d4B5ee664D07c109';
 
 // Read vault stats
 async function getVaultStats() {
@@ -644,7 +644,7 @@ async function depositSenior(amount: bigint, userAddress: `0x${string}`) {
 
 // Request withdrawal
 async function requestWithdrawal(amount: bigint, userAddress: `0x${string}`) {
-  const EPOCH_MANAGER = '0x2956e44668E4026D499D46Ad7eCB1312EA8484aa';
+  const EPOCH_MANAGER = '0x7cbdd2d816C4d733b36ED131695Ac9cb17684DC3';
 
   const hash = await walletClient.writeContract({
     address: EPOCH_MANAGER,
@@ -678,9 +678,9 @@ const wallet = new ethers.Wallet(process.env.PRIVATE_KEY!, provider);
 
 // Contract instances
 const seniorVault = new ethers.Contract(
-  '0x34BC889a143870bBd8538EAe6421cA4c62e84bc3',
+  '0x766624E3E59a80Da9801e9b71994cb927eB7F260',
   SeniorVaultABI,
-  wallet
+  wallet,
 );
 
 // Keeper: Harvest yields
@@ -688,7 +688,7 @@ async function harvest() {
   const coreVault = new ethers.Contract(
     CORE_VAULT_ADDRESS,
     CoreVaultABI,
-    wallet
+    wallet,
   );
 
   try {
@@ -720,7 +720,7 @@ async function monitorSafety() {
   const safetyModule = new ethers.Contract(
     SAFETY_MODULE_ADDRESS,
     SafetyModuleABI,
-    provider
+    provider,
   );
 
   const [juniorRatio, level] = await Promise.all([
@@ -732,17 +732,20 @@ async function monitorSafety() {
 
   if (level > 0) {
     console.warn(
-      `⚠️ Safety Alert: ${levels[level]} (Junior Ratio: ${juniorRatio / 100}%)`
+      `⚠️ Safety Alert: ${levels[level]} (Junior Ratio: ${juniorRatio / 100}%)`,
     );
     // Send alert to monitoring service
   }
 }
 
 // Run keeper operations
-setInterval(async () => {
-  await harvest();
-  await monitorSafety();
-}, 60 * 60 * 1000); // Every hour
+setInterval(
+  async () => {
+    await harvest();
+    await monitorSafety();
+  },
+  60 * 60 * 1000,
+); // Every hour
 ```
 
 ### Smart Contract Integration
@@ -887,4 +890,4 @@ error StaleRateSource();                // Rate source outdated
 
 ---
 
-For more detailed examples and use cases, visit our [GitHub repository](https://github.com/door-protocol/contracts) or join our [Discord community](https://discord.gg/doorprotocol).
+For more detailed examples and use cases, visit our [GitHub repository](https://github.com/door-protocol/contract).
