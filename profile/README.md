@@ -3,6 +3,8 @@
 > **Decentralized Offered Rate Protocol on Mantle Network**
 > A production-ready structured DeFi product implementing waterfall distribution for risk-adjusted yield generation.
 
+For a comprehensive overview of our vision, market opportunity, and roadmap, please refer to our One-Pager Pitch.
+
 ---
 
 ## 🎯 Project Overview
