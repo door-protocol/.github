@@ -106,7 +106,7 @@ cat README.md
 - SeniorVault: `0x34BC889a143870bBd8538EAe6421cA4c62e84bc3`
 - JuniorVault: `0x8E1A6A3Ba7c5cb4d416Da7Fd376b2BC75227022e`
 
-[See all addresses →](./docs/DEPLOYMENT_GUIDE.md#deployment-output)
+[See all addresses →](https://github.com/door-protocol/contract/blob/main/README.md)
 
 #### Frontend Application
 
@@ -136,25 +136,25 @@ cat README.md
 
 ### Core Documentation
 
-Located in [`.github/docs/`](./docs/):
+Located in [`.github/docs/`](https://github.com/door-protocol/.github/tree/main/docs):
 
 | Document                                              | Description                                                    | Audience    |
 | ----------------------------------------------------- | -------------------------------------------------------------- | ----------- |
-| [**README.md**](./docs/README.md)                     | Product overview, features, and use cases                      | Everyone    |
-| [**ARCHITECTURE.md**](./docs/ARCHITECTURE.md)         | System design, contract interactions, technical specifications | Developers  |
-| [**API_REFERENCE.md**](./docs/API_REFERENCE.md)       | Contract interfaces, integration examples, event reference     | Integrators |
-| [**DEPLOYMENT_GUIDE.md**](./docs/DEPLOYMENT_GUIDE.md) | Deployment instructions, network configs, troubleshooting      | DevOps      |
+| [**README.md**](https://github.com/door-protocol/.github/tree/main/docs/README.md)                     | Product overview, features, and use cases                      | Everyone    |
+| [**ARCHITECTURE.md**](https://github.com/door-protocol/.github/tree/main/docs/ARCHITECTURE.md)         | System design, contract interactions, technical specifications | Developers  |
+| [**API_REFERENCE.md**](https://github.com/door-protocol/.github/blob/main/docs/API_REFERENCE.md)       | Contract interfaces, integration examples, event reference     | Integrators |
+| [**DEPLOYMENT_GUIDE.md**](https://github.com/door-protocol/.github/tree/main/docs/DEPLOYMENT_GUIDE.md) | Deployment instructions, network configs, troubleshooting      | DevOps      |
 
 ### Component Documentation
 
-- **Smart Contracts**: [`/contract/README.md`](../contract/README.md)
+- **Smart Contracts**: [`/contract/README.md`](https://github.com/door-protocol/contract/blob/main/README.md)
 
   - Contract architecture
   - Testing guide
   - Development workflow
   - Security considerations
 
-- **Frontend**: [`/frontend/README.md`](../frontend/README.md)
+- **Frontend**: [`/frontend/README.md`](https://github.com/door-protocol/frontend/blob/main/README.md)
   - Application structure
   - Component library
   - State management
@@ -216,7 +216,7 @@ Total Yield (12% APY on $100k)
             (16% APY on $20k Junior Capital)
 ```
 
-[Learn more about architecture →](./docs/ARCHITECTURE.md)
+[Learn more about architecture →](https://github.com/door-protocol/.github/tree/main/docs/ARCHITECTURE.md)
 
 ---
 
@@ -243,7 +243,7 @@ Total Yield (12% APY on $100k)
 - Strategy risk: mETH staking carries smart contract and market risks
 - Testnet only - not production ready
 
-[See security details →](./docs/ARCHITECTURE.md#security-considerations)
+[See security details →](https://github.com/door-protocol/.github/tree/main/docs/ARCHITECTURE.md#security-considerations)
 
 ---
 
@@ -302,7 +302,7 @@ npm run build
 
 ### Deployed Contracts (Testnet)
 
-See full deployment addresses in [DEPLOYMENT_GUIDE.md](./docs/DEPLOYMENT_GUIDE.md#deployment-output)
+See full deployment addresses in [DEPLOYMENT_GUIDE.md](https://github.com/door-protocol/.github/tree/main/docs/DEPLOYMENT_GUIDE.md)
 
 ### Web Application
 
@@ -463,7 +463,7 @@ Found a typo or want to improve documentation?
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](../contract/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/door-protocol/contract/tree/main/LICENSE) file for details.
 
 ---
 
@@ -485,23 +485,23 @@ This project is licensed under the MIT License - see the [LICENSE](../contract/L
 
 ### For Newcomers
 
-1. Start with [Product Overview](./docs/README.md)
-2. Understand [Waterfall Distribution](./docs/ARCHITECTURE.md#waterfall-distribution-mechanism)
-3. Explore [Use Cases](./docs/README.md#use-cases)
+1. Start with [Product Overview](https://github.com/door-protocol/.github/tree/main/docs/README.md)
+2. Understand [Waterfall Distribution](https://github.com/door-protocol/.github/tree/main/docs/ARCHITECTURE.md#waterfall-distribution-mechanism)
+3. Explore [Use Cases](https://github.com/door-protocol/.github/tree/main/docs/README.md#use-cases)
 4. Try the [Web App](https://door-protocol-frontend.vercel.app)
 
 ### For Developers
 
-1. Read [Architecture Documentation](./docs/ARCHITECTURE.md)
-2. Study [API Reference](./docs/API_REFERENCE.md)
-3. Follow [Deployment Guide](./docs/DEPLOYMENT_GUIDE.md)
-4. Review [Contract Code](../contract/src/)
+1. Read [Architecture Documentation](https://github.com/door-protocol/.github/tree/main/docs/ARCHITECTURE.md)
+2. Study [API Reference](https://github.com/door-protocol/.github/tree/main/docs/API_REFERENCE.md)
+3. Follow [Deployment Guide](https://github.com/door-protocol/.github/tree/main/docs/DEPLOYMENT_GUIDE.md)
+4. Review [Contract Code](https://github.com/door-protocol/contract/tree/main/src)
 
 ### For Integrators
 
-1. Check [API Reference](./docs/API_REFERENCE.md)
-2. Review [Integration Examples](./docs/API_REFERENCE.md#integration-examples)
-3. Test on [Mantle Sepolia Testnet](./docs/DEPLOYMENT_GUIDE.md#testnet-deployment)
+1. Check [API Reference](https://github.com/door-protocol/.github/tree/main/doc/API_REFERENCE.md)
+2. Review [Integration Examples](https://github.com/door-protocol/.github/tree/main/doc/API_REFERENCE.md#integration-examples)
+3. Test on [Mantle Sepolia Testnet](https://github.com/door-protocol/.github/tree/main/doc/DEPLOYMENT_GUIDE.md#testnet-deployment)
 
 ---
 
