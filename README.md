@@ -103,7 +103,7 @@ cat README.md
 - SeniorVault: `0x34BC889a143870bBd8538EAe6421cA4c62e84bc3`
 - JuniorVault: `0x8E1A6A3Ba7c5cb4d416Da7Fd376b2BC75227022e`
 
-[See all addresses →](./docs/DEPLOYMENT_GUIDE.md#deployment-output)
+[See all addresses →](https://github.com/door-protocol/frontend?tab=readme-ov-file#-deployed-contracts-mantle-sepolia)
 
 #### Frontend Application
 
@@ -144,13 +144,13 @@ Located in [`.github/docs/`](./docs/):
 
 ### Component Documentation
 
-- **Smart Contracts**: [`/contract/README.md`](../contract/README.md)
+- **Smart Contracts**: [`/contract/README.md`](https://github.com/door-protocol/contract/blob/main/README.md)
   - Contract architecture
   - Testing guide
   - Development workflow
   - Security considerations
 
-- **Frontend**: [`/frontend/README.md`](../frontend/README.md)
+- **Frontend**: [`/frontend/README.md`](https://github.com/door-protocol/frontend/blob/main/README.md)
   - Application structure
   - Component library
   - State management
@@ -238,8 +238,6 @@ Total Yield (12% APY on $100k)
 - Experimental software - use at your own risk
 - Strategy risk: mETH staking carries smart contract and market risks
 - Testnet only - not production ready
-
-[See security details →](./docs/ARCHITECTURE.md#security-considerations)
 
 ---
 
@@ -453,7 +451,7 @@ Found a typo or want to improve documentation?
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](../contract/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/door-protocol/frontend/blob/main/LICENSE) file for details.
 
 ---
 
@@ -485,7 +483,7 @@ This project is licensed under the MIT License - see the [LICENSE](../contract/L
 1. Read [Architecture Documentation](./docs/ARCHITECTURE.md)
 2. Study [API Reference](./docs/API_REFERENCE.md)
 3. Follow [Deployment Guide](./docs/DEPLOYMENT_GUIDE.md)
-4. Review [Contract Code](../contract/src/)
+4. Review [Contract Code](https://github.com/door-protocol/contract/tree/main/src)
 
 ### For Integrators
 
