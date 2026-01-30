@@ -5,7 +5,7 @@
 > A production-ready DeFi protocol implementing risk-tranched vaults with waterfall distribution.
 
 - 📄 **[One-Paper Pitch](https://github.com/door-protocol/one-paper/blob/main/README.md)**
-- 🎥 **[Live Demo](https://www.youtube.com/watch?v=R1qZ9yV0sGE)**
+- 🎥 **[Live Demo](https://youtu.be/JIF715N5R3U)**
 
 ---
 
